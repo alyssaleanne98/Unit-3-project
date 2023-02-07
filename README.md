@@ -28,6 +28,7 @@ An Amazon E-Commerce clone where users can purchase a variety of essentials as a
 ![Alt text](Screen%20Shot%202023-01-20%20at%2011.43.37%20AM.png)
 
 ### Screenshots
+![Alt text](../../../Screen%20Shot%202023-02-07%20at%202.18.42%20PM.png)
 ![Alt text](Screen%20Shot%202023-01-21%20at%201.34.21%20AM.png)
 ![Alt text](Screen%20Shot%202023-01-21%20at%201.35.22%20AM.png)
 
