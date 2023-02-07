@@ -1,7 +1,8 @@
 ## Amazon E-commerce Store
+
 Group:
-Kelly McDonald
 Alyssa Cervantes
+Kelly McDonald
 Kevin Tran
 Colin Stoutt
 

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import Index from "../../pages/Index/Index";
-import Show from "../../pages/Show/Show";
 import Cart from "../../pages/Cart/Cart";
 import SignupPage from "../../pages/Signup/SignupPage";
 import LoginPage from "../../pages/Login/LoginPage";
@@ -31,11 +30,11 @@ const Main = (props) => {
           path="/product/:id"
           element={
             <ProtectedRoute user={props.user}>
-              <Show
+              {/* <Show
                 count={count}
                 setCount={setCount}
                 products={props.products}
-              />
+              /> */}
             </ProtectedRoute>
           }
         />
