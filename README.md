@@ -7,7 +7,8 @@ Kevin Tran
 Colin Stoutt
 
 ### Introduction
-As a group, we decided to really go for it in the group project and tackle an amazon ecommerce clone.  We wanted to challenge ourselves in design, functionality and hoped to tackle a few bonus items beyond the MVP requirements.  
+
+An Amazon E-Commerce clone where users can purchase a variety of essentials as a developer/engineer. My group and I leveraged HTML, CSS, React.JS in the front-end portion of this project. 
 
 ### User Stories
 
@@ -44,15 +45,15 @@ As a group, we decided to really go for it in the group project and tackle an am
 - Trello board: https://trello.com/b/zosxpcUf/ecommerce-store
 - Netlify: https://amazing-lily-47694b.netlify.app/
 - Heroku: https://group-3proj.herokuapp.com/product
-=======t
 
 
 ### Future Enhancements:
+
 - A cart that functions from the backend.
 - Addition of checkout features with the implementation of Stripe API.
 - Admin dashboard for creating, updating, editing and deleting products and managing users.
-- Adding Checkout Pages and components like User Detail card and a Buy Button.
-- Add software engineer related advertisements as customization. 
+- Add additional features in the checkout page such as a user detail card and a functional buy button.
+- Add software engineer related advertisements for customization and personalization. 
 - Implement a wider selection of products.
 - Improve the functionality of the navigation bar and provide more links for the user. 
   
