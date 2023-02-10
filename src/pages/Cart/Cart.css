@@ -13,6 +13,9 @@
   z-index: 1;
   background-color: white;
 }
+.LinkedIn{
+  height: 100px;
+}
 
 .cart__title {
   font-size: 2rem;

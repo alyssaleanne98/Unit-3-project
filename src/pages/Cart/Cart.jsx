@@ -43,6 +43,17 @@ const Cart = ({ count, setCount }) => {
 
   return !cart ? (
     <div className="cart">
+     <a
+          href="http://www.linkedin.com/in/charles-k-okoye/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="https://clone-f50ae.web.app/static/media/Developer-Ad.0bba0ea8cd547a7539fc.png"
+            alt="Are you looking for a Developer"
+            className="checkout__ad"
+          />
+        </a>
       <div className="cart__container">
         <h1 className="cart__title">Shopping Cart</h1>
         <div className="cart_item"></div>
@@ -53,22 +64,23 @@ const Cart = ({ count, setCount }) => {
         <button>Checkout</button>
       </aside>
     </div>
+
   ) : (
     <div className="cart">
       <div className="cart__container">
-        <h1 className="cart__title">Shopping Cart</h1>
-        {cart.map((product) => {
-          return (
-            <CartItem
-              key={product._id}
-              product={product}
-              handleDecrement={handleDecrement}
-              handleIncrement={handleIncrement}
-              handleDelete={handleDelete}
-              count={count}
-            />
-          );
-        })}
+          <h1 className="cart__title">Shopping Cart</h1>
+          {cart.map((product) => {
+            return (
+              <CartItem
+                key={product._id}
+                product={product}
+                handleDecrement={handleDecrement}
+                handleIncrement={handleIncrement}
+                handleDelete={handleDelete}
+                count={count}
+              />
+            );
+          })}
       </div>
       <aside className="subtotal">
         <h1>Subtotal ({cart.length} items)</h1>
