@@ -10,17 +10,14 @@ Colin Stoutt
 
 An Amazon E-Commerce clone where users can purchase a variety of essentials as a developer/engineer. My group and I leveraged HTML, CSS, React.JS in the front-end portion of this project. 
 
-### User Stories
+**Core Functionalities:**
+* Creating/Signing in to an account. 
+* Desktop responsiveness.
+* Adding items to cart.
+* Deleting items from cart.
+* Storing the user information for individual accounts. 
+* Search for individual items. 
 
-- As a user I can sign up for an account
-- As a user I can login to the clone
-- As a user I can browse an index of products
-- As a user I can use the search bar to find products
-- As a user I can add a product to the cart
-- As a user I can add multiple products to the cart
-- As a user I can update the cart of items
-- As a user I delete items from my cart
-=======
 
 ### Wireframes
 ![Alt text](Screen%20Shot%202023-01-20%20at%2011.43.14%20AM.png)
