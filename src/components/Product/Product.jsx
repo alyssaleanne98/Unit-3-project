@@ -6,7 +6,7 @@ import StarIcon from "@mui/icons-material/Star";
 function Product({ product, name, addToCart, price, quantity, id, img }) {
   return (
     <div className="product">
-      <Link className="link" to={`/product/${id}`}>
+      <Link className="link" to={`/cart`}>
         <p className="product_name">{name.slice(0, 70) + "..."}</p>
         <p className="product_price">${price}</p>
         <div className="rating">
@@ -15,10 +15,11 @@ function Product({ product, name, addToCart, price, quantity, id, img }) {
           <StarIcon id="product_rating" />
           <StarIcon id="product_rating" />
         </div>
+        </Link>
         <p className="product_quant">{quantity}</p>
         <img className="product_img" src={img} alt={name} />
-      </Link>
       <button onClick={() => addToCart(product)}>Add to cart</button>
+      
     </div>
   );
 }
